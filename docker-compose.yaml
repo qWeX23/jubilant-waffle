@@ -1,0 +1,6 @@
+services:
+  webserver:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
